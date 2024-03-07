@@ -33,7 +33,7 @@ class _TaskListScreenState extends BaseState<TaskListScreenState,
   Widget buildWidget(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(S.current.myTasksTitle),
+        title: const Text('My Tasks'),
       ),
       body: blocBuilder(
         builder: (context, state) {
